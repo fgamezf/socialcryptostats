@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cell_background_green {
+  background: green !important;
+  color: white;
+}
+
+.cell_background_red {
+  background: red !important;
+  color: white;
+}
+
+.diff_porcentage {
+  font-size: 12px;
+}
+
+h1 {
+  font-size:36px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size:16px;
+  }
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.customPopOver {
+  max-width: 800px; /* optional max width */
+  width: intrinsic; /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content; /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+}
+
+.customTooltip > .tooltip-inner {
+  max-width: 100%;
+}
+
+.currentPrice {
+  color: gray;
+  font-size:14px;
+}
