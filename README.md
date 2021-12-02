@@ -1,6 +1,6 @@
-# Getting Started 
+# Welcome to Social Crypto Stats project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt Social Crypto Stats](screenshot/socialcryptostats.png?raw=true "Social Crypto Stats")
 
 ## Available Scripts
 
