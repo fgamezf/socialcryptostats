@@ -1,5 +1,9 @@
 # Welcome to Social Crypto Stats project
 
+## Description
+Now you can detect crypto marketing on Twitter in time for free. Surf the wave together whales!
+Data updated every minute! 
+
 ![alt Social Crypto Stats](screenshot/socialcryptostats.png?raw=true "Social Crypto Stats")
 
 ## Live (demo)
