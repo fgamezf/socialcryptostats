@@ -2,6 +2,9 @@
 
 ![alt Social Crypto Stats](screenshot/socialcryptostats.png?raw=true "Social Crypto Stats")
 
+## Live (demo)
+Have a look [here](https://socialcrypto.decomprasporlared.com).
+
 ## Installation
 
 - Clone repository in local directory.
