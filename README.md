@@ -2,24 +2,18 @@
 
 ![alt Social Crypto Stats](screenshot/socialcryptostats.png?raw=true "Social Crypto Stats")
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+- Clone repository in local directory.
+- Execute <strong>npm start</strong>
 
-### `npm start`
+## Backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application requires two external services:
+- Coinbase API to get cryptocurrency prices in realtime.
+- Custom websocket server to get number of tweets per crypto every minute.  This application is based on Python (Tweepy) and currently works on RaspberryPI 4 through Docker.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Endpoints for both external services are configure in .env file:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+REACT_APP_WEBSOCKET_URL=wss://723d-217-217-232-133.ngrok.io
+REACT_APP_WEBSOCKET_COINBASE_URL=wss://ws-feed.pro.coinbase.com
